@@ -14,6 +14,8 @@ export default class EventEmitter {
         }
 
         this._handlers[type].push(handler);
+
+        return this.off.bind(this, type, handler);
     }
 
     emit(type, data) {

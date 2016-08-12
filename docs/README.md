@@ -27,3 +27,28 @@
     - onLoad
     - Model#onChange
         - Update View
+
+
+## component/element
+
+- EventListener
+- EventEmitter
+- Array
+    - push
+    - splice
+    - map
+    - find
+    - filter
+    - forEach
+- emit ... spread operator
+- Map/Set?
+- Function
+    - call
+    - bind or closure
+- equability
+- class
+- ES module
+- Build/Bundler tools
+- Arrow Function
+- default parameter
+- DOM
